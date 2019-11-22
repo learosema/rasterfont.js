@@ -19,9 +19,9 @@ export async function loadFont(url) {
  * @param {CanvasRenderingContext2D} ctx the canvas context
  * @param {Uint8Array} font the font 
  * @param {string} text the text to be rendered 
- * @param {number} x the x coordinate 
- * @param {number} y the y coordinate
- * @param scale 
+ * @param {number} x the x coordinate. defaults to 0
+ * @param {number} y the y coordinate. defaults to 0
+ * @param {number} scale scaling level. defaults to 1
  */
 export function drawString({ctx, font, text, x = 0, y = 0, scale = 1, color = '#fff', background = null, ltr = 1}) {
   const CHAR_HEIGHT = 8;
