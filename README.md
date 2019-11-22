@@ -23,6 +23,6 @@ async function main() {
 
 # Demo
 
-To run this locally, you use the provided server.js. After running `npm install`, `npm start` runs a minimal express server for static files. 
+To run this locally, you can use the provided server.js. After running `npm install`, `npm start` runs a minimal express server for static files. 
 
 You can also just look at this project's [Github page](https://terabaud.github.io/rasterfont.js/)
